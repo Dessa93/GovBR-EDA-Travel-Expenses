@@ -1,3 +1,7 @@
+# <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg?sanitize=true" alt="Bandeira do Brasil" height="20" width="30"> Análise Exploratória de Despesas de Viagens do Governo Federal (2024)
+
+[See in English <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Flag_of_the_United_Kingdom.svg?sanitize=true" alt="Flag of the United Kingdom" height="20" width="30">](#english-version)
+
 # 🇧🇷 Análise Exploratória de Despesas de Viagens do Governo Federal (2024) 
 
 [See in English 🇬🇧](#english-version)
@@ -76,6 +80,8 @@ A análise ressalta a alta concentração de gastos em poucas categorias e apont
 
 ---
 <a name="english-version"></a>
+
+# <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Flag_of_the_United_Kingdom.svg?sanitize=true" alt="Flag of the United Kingdom" height="20" width="30"> Exploratory Analysis of Brazilian Federal Government Travel Expenses (2024)
 
 # 🇬🇧 Exploratory Analysis of Brazilian Federal Government Travel Expenses (2024)
 

@@ -43,6 +43,8 @@ O fluxo de trabalho no notebook (`GovBR_Dataset_viagem.ipynb`) segue as seguinte
 
 ## 📊 Análise de Resultados
 
+As tabelas mostram "dois cargos" denominados como 'Informações Protegidas por Sigilo' e 'Não Identificado', o que aponta o primeiro problema no Portal da Transparência, onde todos os dados deveriam ser informados como prestação de contas do dinheiro público. E ironicamente, quase 90% dos gastos totais em viagens estão distribuídos entre esses dois cargos.
+
 * **Quantitativo de Viagens por Cargo:** A categoria "Informações protegidas por sigilo" lidera o volume de viagens com quase 10 mil ocorrências, um número que triplica o segundo colocado. Esta concentração massiva em dados não transparentes levanta sérias preocupações sobre a prestação de contas dos órgãos.
 * **Custo Total por Cargo:** Os gastos são dominados pelas categorias opacas, com "Informações protegidas por sigilo" totalizando R$ 49 milhões em despesas de viagens. O alto custo total (aproximadamente R$ 9 milhões) do 'Professor do Magistério Superior' também demanda investigação sobre a natureza e necessidade dessas viagens.
 * **Viagem Mais Cara por Cargo:** A maior despesa individual (cerca de R$ 160 mil) está alocada em categorias não identificadas, seguida por um gasto singular de R$ 116 mil de um Professor de Ensino Básico Técnico. Tais valores exigem uma auditoria aprofundada nos motivos e processos de aprovação.
@@ -119,6 +121,8 @@ The workflow in the notebook (`GovBR_Dataset_viagem.ipynb`) follows the followin
     * Creation of vertical bar charts to visualize the average duration of trips (in days) per job role.
 
 ## 📊 Results
+
+The tables reveal 'two job roles' labeled as 'Informações Protegidas por Sigilo' (Protected Information) and 'Não Identificado' (Unidentified), which signals the primary issue in the Transparency Portal, where all data should be disclosed as public money accountability. Ironically, almost 90% of total travel expenses are distributed between these two categories.
 
 * **Quantitative Travel per Job Role:** The category "Informações protegidas por sigilo" (Protected Information) leads the volume of trips with nearly 10 thousand occurrences, a figure that triples the second place. This massive concentration in opaque data raises serious concerns about organizational accountability.
 * **Total Cost per Job Role:** Expenditures are dominated by opaque categories, with "Informações protegidas por sigilo" totaling R$ 49 million in travel expenses. The high total cost (approximately R$ 9 million) for 'Professor do Magistério Superior' (Professors) also requires investigation into the nature and necessity of these trips.

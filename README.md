@@ -2,7 +2,7 @@
 
 [See in English](#english-version)
 
-Este projeto de Data Science realiza uma análise exploratória dos dados de despesas com viagens de servidores públicos federais referentes ao ano de 2024, utilizando dados de transparência do Governo Federal.
+Este projeto em Ciência de Dados realiza uma análise exploratória dos dados de despesas com viagens de servidores públicos federais referentes ao ano de 2024, utilizando dados de transparência do Governo Federal.
 
 O objetivo principal é identificar a distribuição dos gastos, mapear os cargos com maior volume de despesas e visualizar anomalias ou questões de transparência nos registros.
 

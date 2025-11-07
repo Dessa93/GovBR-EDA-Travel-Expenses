@@ -49,7 +49,7 @@ O fluxo de trabalho no notebook (`GovBR_Dataset_viagem.ipynb`) segue as seguinte
 * **Cargos com Custo Total > R$ 1 Milhão:** O conjunto de cargos com despesas totais acima de R$ 1 milhão é substancialmente impactado por "Informações protegidas por sigilo", consolidando sua influência de aproximadamente R$ 49 milhões.
 * **Impacto de Valores Nulos (NaN) e 'Não Identificado':** Mais de 23 mil entradas com despesas não tiveram o campo 'Cargo' especificado (NaN), alimentando a categoria 'Não Identificado', a qual lidera o volume de viagens. Essa falha crítica na qualidade dos dados e a concentração de custos em categorias opacas sugere um problema estrutural de governança.
 * **Análise Proporcional dos Custos:** O gráfico demonstra que os cargos 'Não Identificado' e 'Informações Sigilosas' consomem juntos mais de 90% dos cinco maiores custos de viagens. Esta desproporção alarmante aponta para uma concentração massiva de gastos em categorias que carecem de transparência.
-* **Relação Duração Média vs. Custo Total:** Apesar de ter uma duração média de viagens significativamente menor (26 dias vs. 217 dias do Primeiro Sargento), o cargo 'Não Identificado' registra uma despesa total de R$ 222 milhões. Esta anomalia na relação custo/duração indica uma ineficiência e exige imediata auditoria para rastreamento dos recursos.
+* **Relação Duração Média vs. Custo Total:** Apesar de ter uma duração média de viagens significativamente menor (26 dias para Não Identificado vs. 217 dias do Primeiro Sargento), o cargo 'Não Identificado' registra uma despesa total de R$ 222 milhões, enquanto Primeiro Sargento registrou 2 milhões de reais. Esta anomalia na relação custo/duração indica uma ineficiência e exige imediata auditoria para rastreamento dos recursos.
 
 
 ## 🔑 Principais Insights
@@ -121,20 +121,20 @@ The workflow in the notebook (`GovBR_Dataset_viagem.ipynb`) follows the followin
 ## 📊 Results
 
 * **Quantitative Travel per Job Role:** The category "Informações protegidas por sigilo" (Protected Information) leads the volume of trips with nearly 10 thousand occurrences, a figure that triples the second place. This massive concentration in opaque data raises serious concerns about organizational accountability.
-* **Total Cost per Job Role:** Expenditures are dominated by opaque categories, with "Informações protegidas por sigilo" totaling R$ 49 million in travel expenses. The high total cost (approximately R$ 9 million) for 'Professor do Magistério Superior' also requires investigation into the nature and necessity of these trips.
+* **Total Cost per Job Role:** Expenditures are dominated by opaque categories, with "Informações protegidas por sigilo" totaling R$ 49 million in travel expenses. The high total cost (approximately R$ 9 million) for 'Professor do Magistério Superior' (Professors) also requires investigation into the nature and necessity of these trips.
 * **Most Expensive Trip per Job Role:** The highest individual expense for a single trip (around R$ 160 thousand) is allocated to unidentified categories, followed by a singular R$ 116 thousand expenditure by a Basic Technical Education Professor. Such values demand an in-depth audit of the motives and approval processes.
-* **Job Roles with Total Cost > R$ 1 Million:** The set of job roles with total expenses exceeding R$ 1 million is substantially impacted by "Informações protegidas por sigilo", consolidating its influence of approximately R$ 49 million.
+* **Job Roles with Total Cost > R$ 1 Million:** The set of job roles with total expenses exceeding R$ 1 million is substantially impacted by "Informações protegidas por sigilo" (Protected Information), consolidating its influence of approximately R$ 49 million.
 * **Impact of Null (NaN) and 'Unidentified' Values:** Over 23 thousand entries with travel expenses did not have the 'Cargo' field specified (NaN), feeding the 'Não Identificado' (Unidentified) category, which leads the volume of trips. This critical data quality failure and cost concentration in opaque categories suggests a structural governance problem.
-* **Proportional Cost Analysis:** The chart demonstrates that the 'Unidentified' and 'Informações Sigilosas' job roles together consume over 90% of the five largest travel costs. This alarming disproportion points to a massive concentration of expenditures in categories lacking transparency.
-* **Average Duration vs. Total Cost Relationship:** Despite having a significantly lower average trip duration (26 days vs. 217 days for the 'Primeiro Sargento'), the 'Unidentified' role registers a total expense of R$ 222 million. This cost/duration anomaly indicates inefficiency and mandates an immediate audit for resource tracking.
+* **Proportional Cost Analysis:** The chart demonstrates that the 'Unidentified' and 'Protected Information' job roles together consume over 90% of the five largest travel costs. This alarming disproportion points to a massive concentration of expenditures in categories lacking transparency.
+* **Average Duration vs. Total Cost Relationship:** Despite having a significantly lower average trip duration (26 days for 'Unidentified' vs. 217 days for the 'First Sergeant'), the 'Unidentified' role registers a total expense of R$ 222 million whilst 'First Sergeant' role registers a total expense of R$ 2 million. This cost/duration anomaly indicates inefficiency and mandates an immediate audit for resource tracking.
 
 ## 🔑 Key Insights
 
 The analysis highlights the high concentration of spending in a few categories and points to transparency challenges:
 
-* **Outliers and Lack of Transparency:** A significant portion of total expenses is allocated to categories representing lack of identification or secrecy, such as "Unidentified" and "Informações protegidas por sigilo".
+* **Outliers and Lack of Transparency:** A significant portion of total expenses is allocated to categories representing lack of identification or secrecy, such as "Unidentified" and "Protected Information".
 * **Critical Issue (Potential Fund Misallocation):** The notebook raises the issue of possible fund misallocation, given that the largest volume of expenses is in job roles that cannot be identified, compromising public money tracking.
-* **Spending Job Roles:** The rest of the expense ranking is filled by roles with frequent travel, such as `PROFESSOR DO MAGISTERIO SUPERIOR`.
+* **Spending Job Roles:** The rest of the expense ranking is filled by roles with frequent travel, such as `Professor`.
 
 ## 🚀 How to Run the Project
 
